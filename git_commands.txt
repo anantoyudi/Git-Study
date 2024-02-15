@@ -6,3 +6,5 @@ git status          = show working-tree status
 git diff            = show changes between commits, commit and working tree, etc (git diff <file-name>).
 git diff --stage    = show diff between index and named commit
 git restore --staged <file-to-unstage>  = restore working tree files, restore the index
+git rm              = remove files from the working tree and from the index
+git mv              = move or rename file, directory, or symlink
