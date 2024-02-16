@@ -8,3 +8,5 @@ git diff --stage    = show diff between index and named commit
 git restore --staged <file-to-unstage>  = restore working tree files, restore the index
 git rm              = remove files from the working tree and from the index
 git mv              = move or rename file, directory, or symlink
+git commit          = record changes to repository ( -m to add message)
+git commit -a       = stage all modified and deleted paths (add m to add message)
